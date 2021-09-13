@@ -99,6 +99,7 @@ button{
     background-color: #424141;
     height: 100px;
     padding-top: 30px;
+    padding-bottom: 10px;
 }
 @media (max-width: 575.98px) {
     p{
@@ -134,4 +135,16 @@ button{
         height: 250px;
         margin-top: 20px;
     }
+  }
+
+  .social-icons{
+      background-color: #424141;
+      display: flex;
+      justify-content: center;
+      padding-top: 20px;
+  }
+
+  .icon{
+      height: 10px;
+      padding-right: 2px;
   }
